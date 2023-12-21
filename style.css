@@ -1,0 +1,169 @@
+@import url(./assets/reset.css);
+@import url(./assets/fonts/fonts.css);
+html {
+   font-family: 'Averia Serif Libre';
+   font-size: 10px;
+   
+   
+}
+
+.header,
+.main {
+   margin: 32px 130px;
+}
+.header-nav {
+   display: flex;
+   border-bottom: 1px dashed #333333;
+}
+.logo_flex {
+   flex-grow:1 ;
+
+}
+.email_flex {
+   flex-shrink: 0;
+   margin-bottom: 32px;
+
+}
+@media only screen and (max-width: 790px) {
+   .email_flex > p {
+      display: none;
+   }
+ }
+ 
+  
+
+
+ 
+
+/* Блок № 1 */
+.logo__pioner {
+   width: 180px;
+   height: 38px;
+  
+}
+/* Блок № 2 */
+.email {
+   font-size: 1.4rem;
+   display: flex;
+   width: 280px;
+   flex-direction: column;
+   align-items: flex-end;
+}
+.email__adress {
+   font-size: 2rem;
+   font-weight: 600;
+   color:#607CE6 ;
+}
+ 
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Блок № 4 Навигация  */
+.navigste__elements {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   font-size: 1.6rem;
+   font-weight: 600;
+  
+}
+.navigate__margin-top {
+   margin-top: 32px;
+}
+   
+.navigate__item {
+   list-style-type: none;
+}
+.navigate__item_decoration-text {
+   color: #333333;
+   text-decoration: none;
+}
+.navigate__item_decoration-text:hover {
+   color: rgb(32, 123, 244);
+
+}
+.navigate__item_decoration-text:active {
+   color: rgb(11, 133, 92);
+}
+.navigate__item_phone-icon {
+   width: 1.598rem;
+   height: 1.598rem;
+}
+.navigate__item_decoration-color {
+   text-transform: uppercase;
+   color:#607CE6 ;
+
+
+}
+@media only screen and (max-width: 790px) {
+   .navigste__elements {
+    flex-direction: column;
+    gap: 2rem;
+
+   }
+
+
+   /* Продукты */
+ }
+ .products {
+  width: 300px;
+  height: 300px;
+  font-size: 2.8rem;
+  background: #F5F5F5;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border-radius: 20px;
+}
+.products__img {
+  width: 300px;
+  height: 200px;
+}
+.products__link {
+  text-decoration: none;
+  font-size: 2rem;
+}
+.products-fabrika {
+   display: flex;
+   gap: 2.5rem;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: center;
+}
+
+
+
+
+/* @media привести в порядок card product */
+  
+
+  
+
+ 
+   
+   
