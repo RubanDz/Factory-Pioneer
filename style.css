@@ -126,10 +126,79 @@ html {
     gap: 2rem;
 
    }
+}
+/* section 1 */
+.products-characteristic__text_size-lg {
+   font-size: 6rem;
+   font-weight: 700;
+   color: #333333;
+}
+.products-characteristic__text_size-sm {
+   font-size: 2.6rem;
+   font-weight: 400;
+   color: #333333;
+}
+.products-characteristic {
+   display: flex;
+   align-items: center;
+   gap: 30px;
+}
+@media only screen and (max-width: 790px) {
+   .products-characteristic {
+    flex-direction: column;
+   }
+   .products-characteristic__text_size-lg {
+      font-size: 3rem;
+   }
+   .products-characteristic__text_size-sm {
+      font-size: 2rem;
+   }
+}
+    
+/* section 2 */
+.main__img-foto_size {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border-radius: 10px;
+}
+@media only screen and (max-width: 790px) {
+   .main__img-foto_size {
+    width: 100%;
+  
+
+   }
+}
+   
+    
 
 
-   /* Продукты */
- }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   /* карточки продуктов фабрики */
  .products {
   width: 330px;
   height: 330px;
@@ -160,7 +229,7 @@ html {
 
 
 
-/* @media привести в порядок card product */
+
   
 
   
