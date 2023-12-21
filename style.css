@@ -173,7 +173,32 @@ html {
    }
 }
    
+    /* section 4 */
+    .factory__wrapper_img-size {
+      width: 100%;
+      border-radius: 10px;
+      margin-top: 30px;
+      margin-bottom: 30px;
+    }
+    .factory__wrapper {
+      display: flex;
+      gap: 20px;
+   }
+   .factory__wrapper_text {
+      font-size: 1.6rem;
+      text-align: justify;
+      text-indent: 10px;
+   }
+     
+
+  /* section 5  */
+  .map__flex {
+   display: flex;
+   width: 100%;
+  }
+     
     
+     
 
 
 
