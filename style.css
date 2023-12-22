@@ -7,10 +7,10 @@ html {
    
 }
 
-.header,
+/* .header,
 .main {
    margin: 32px 130px;
-}
+} */
 .header-nav {
    display: flex;
    border-bottom: 1px dashed #333333;
@@ -248,7 +248,7 @@ html {
    gap: 2.5rem;
    flex-wrap: wrap;
    align-items: center;
-   justify-content: center;
+   /* justify-content: center; */
 }
 
 
